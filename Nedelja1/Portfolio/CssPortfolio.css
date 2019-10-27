@@ -1,0 +1,151 @@
+header {
+    background-color: transparent;
+    display: ruby;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+    padding: 20px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+nav {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+nav img {
+    float: right;
+    border-radius: 15px;
+    width: 100px;
+}
+
+ul li {
+    display: inline-block;
+    float: left;
+    text-align: center;
+    padding: 10px;
+    border: 3px solid rgb(138, 138, 153);
+    border-radius: 20px;
+    border-style: dotted;
+}
+
+ul li:hover {
+    zoom: 150%;
+}
+
+main>div {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-image: url("pozadina.jpg");
+    background-repeat: repeat;
+    background-size: 100%;
+    margin: 0px 200px 50px 200px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+    position: absolute;
+}
+
+section {
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    height: 100%;
+    width: 100%;  
+}
+
+.iskustvo {
+    float: right;
+}
+
+aside {
+    display: ruby;
+    float: right;   
+}
+
+aside img {
+    width: 40px;
+}
+
+aside:hover {
+    zoom: 150%;
+}
+
+a:visited {
+    color: black;
+}
+
+h1 {
+    text-align: center;   
+}
+
+.slika{
+    float: right;
+    width: 200px;
+    border-radius: 20px;
+}
+
+.projekat1 {
+    float: right;
+    width: 300px;
+    border-radius: 20px;
+    float: left;
+    padding: 10px;
+}
+
+#zoom{
+    width: 700px;
+    height: auto;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+
+#zoom:hover{
+    transform: scale(2);
+}
+
+#zoom2{
+    width: 700px;
+    height: auto;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+
+#zoom2:hover{
+    transform: scale(2);
+}
+
+button{
+    width: 200px;
+    height: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    border: none;
+    background-color: transparent;
+}
+
+dl li{
+    display: list-item;
+}
+
+footer {
+    display: ruby;
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
