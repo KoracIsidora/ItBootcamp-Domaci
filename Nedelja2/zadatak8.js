@@ -1,14 +1,13 @@
-let height = 5;
+let n = 5;
 
-for (let x = 1; x <= height; x++) {
-    let row = '';
-
-    for (let y = 1; y <= (height - x); y++) {
-        row += ' ';
+for (let i = 1; i <= n; i++) {
+    let zvezda = '';
+    for (let j = 1; j <= (n - i); j++) {
+        zvezda += ' ';
     }
-    for (let z = 1; z <= x; z++) {
-        row += '#';
+    for (let k = 1; k <= i; k++) {
+        zvezda += '#'
     }
-    console.log(row);
+    console.log(zvezda);
 }
 
