@@ -1,6 +1,12 @@
-let brojevi = [25, 16, 98];
-brojevi.sort(function (a, b) {
-    return b - a
-});
+function findMax(){
+    var i;
+    var max = -Infinity;
+    for(i=0; i<arguments.length; i++){
+        if(arguments[i]>max){
+            max = arguments[i];
+        }
+    }
+    return max;
+}
 
-console.log('Najveci broj je', brojevi[0]);
+console.log(findMax(4,5,6,6,7,7));
