@@ -27,7 +27,7 @@ function resetPizza() {
     let now = new Date();
     if (pizzaCount == 0) {
         alert('Niste naručili picu!');
-    } else if (pizzaCount != 0) {
+    } else {
         counter.innerHTML = `<p>Naručili ste ${pizzaCount} pica, trenutno vreme je ${now.getHours()}:${now.getMinutes()}:${now.getSeconds()}.</p>`
         pizzaCount = 0;
     }
