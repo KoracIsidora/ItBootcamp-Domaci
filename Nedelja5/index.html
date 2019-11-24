@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Budžet</title>
+</head>
+
+<body>
+    <header>
+        <h1><em>Mesečni budžet za novembar</em></h1>
+    </header>
+    <main>
+        <div id="first">
+            <input type="text" placeholder="Ukupno" id="ukupno"> <br>
+            Prihod : <input type="text" placeholder="0 Rsd" id="prihod">
+            Rashod : <input type="text" placeholder="0 Rsd" id="rashod">
+            <input type="text" id="procenat">
+            <hr>
+        </div>
+        <form id="forma">
+            <select name="" id="sign">
+                <option value="plus" >Prihod</option>
+                <option value="minus" >Rashod</option>
+            </select>
+            <div id="second">
+                Opis: <input type="text" id="opis" placeholder="Opis">
+                Iznos: <input type="number" id="iznos" placeholder="Iznos">
+                <input type="button" id="dodaj" value="Dodaj">
+            </div>
+        </form>
+        <section>
+            <div id="listaprihoda">
+                <label>Prihodi</label>
+            </div>
+            <div id="listarashoda">
+                <label for="">Rashodi</label>
+            </div>
+        </section>
+        <footer>
+            &copy; Isidora Korać 2019
+        </footer>
+    </main>
+    <script src="index.js"></script>
+</body>
+
+</html>

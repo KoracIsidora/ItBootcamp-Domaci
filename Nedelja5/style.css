@@ -1,0 +1,179 @@
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: x-large;
+    color: darkslategray;
+    text-decoration: underline;
+    position: relative;
+}
+
+* {
+    background-color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+
+#first {
+    text-align: center;
+}
+
+#sign {
+    font-size: larger;
+}
+
+#ukupno {
+    text-align: center;
+    border: none;
+    font-size: xx-large;
+    box-shadow: none;
+    padding: 20px;
+    border-color: transparent;
+    outline: none;
+}
+
+#prihod {
+    text-align: right;
+    padding: 10px;
+    margin: 20px;
+    border: none;
+    font-size: medium;
+    outline: none;
+}
+
+#rashod {
+    text-align: right;
+    padding: 10px;
+    border: none;
+    font-size: medium;
+    outline: none;
+    padding: 10px;
+}
+
+#forma {
+    text-align: center;
+}
+
+#listaprihoda {
+    border: solid 2px grey;
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    float: left;
+    margin: 20px 150px 150px 230px;
+    text-align: center;
+    background-image: url("novac.jpg");
+    resize: both;
+    overflow: auto;
+}
+
+#listarashoda {
+    border: solid 2px grey;
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    float: left;
+    margin: 20px 150px 150px 130px;
+    text-align: center;
+    background-image: url("novac.jpg");
+    resize: both;
+    overflow: auto;
+}
+
+#opis {
+    text-align: right;
+    padding: 10px;
+    margin: 20px;
+    border: none;
+    font-size: medium;
+    outline: none;
+}
+
+#iznos {
+    text-align: right;
+    padding: 10px;
+    margin: 20px;
+    border: none;
+    font-size: medium;
+    outline: none;
+    background-color: transparent;
+}
+
+#dodaj {
+    margin: 15px;
+    font-size: large;
+    border-radius: 5px;
+    font-size: medium;
+    outline: none;
+}
+
+#dodaj:hover {
+    background-color: darkslategray;
+}
+
+label {
+    background-color: transparent;
+    border: 2px solid grey;
+    border-radius: 5px;
+}
+
+#sign {
+    outline: none;
+    border-radius: 5px;
+    float: inline-end;
+    font-size: medium;
+}
+
+.items {
+    background-color: transparent;
+}
+
+.rmvbtn {
+    margin: 15px;
+    font-size: large;
+    border-radius: 5px;
+    font-size: medium;
+    outline: none;
+    display: none;
+}
+
+.items:hover .rmvbtn {
+    display: inline-block;
+}
+
+.x {
+    background-color: transparent;
+}
+
+.y {
+    background-color: transparent;
+}
+
+.znak {
+    display: none;
+}
+
+.x,
+.y,
+.percent {
+    display: inline;
+    padding: 10px;
+}
+
+.percent {
+    background-color: transparent;
+}
+
+footer {
+    float: right;
+    padding: 20px;
+}
+
+#procenat {
+    border: none;
+    text-align: right;
+    outline: none;
+    font-size: medium;
+    width: 40px;
+    display: inline-block;
+    color: black;
+}
