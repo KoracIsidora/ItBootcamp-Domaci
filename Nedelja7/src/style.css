@@ -1,0 +1,10 @@
+*{
+    background-color: rgb(187, 180, 180);
+    text-align: center;
+    padding: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+form{
+    display: inline;
+    margin: 10px;
+}
