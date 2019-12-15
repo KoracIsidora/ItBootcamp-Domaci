@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#root{
+  display: flex;
+  justify-content: center;
+}
+
+.App{
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid rgb(71, 22, 22);
+  background-color: rgb(187, 172, 145);
+  width: 500px;
+  height: 520px;
+  border-radius: 30px;
+  box-shadow:5px 10px rgb(71, 22, 22);
+}
+
+ul{
+  list-style-type: none;
+  display: inline;
+}
+
+body{
+  background-image: url('./picture1.png');
+  background-attachment: fixed;
+  background-size: cover;
+  color:rgb(71, 22, 22);
+  font-weight: bold;
+}
+input{
+  padding: 10px;
+  margin: 10px 10px 0px 10px; 
+  outline: none;
+  border-radius: 5px;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+    background-color: wheat;
+    box-shadow: 5px 10px grey;
+}
+button{
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  font-family: 'Courier New', Courier, monospace;
+  background-color:rgb(71, 22, 22);
+  color: wheat;
+  box-shadow: 5px 10px grey;
+}
+
+p{
+  font-size: small;
+}
+
+ul{
+  margin: 50px;
+}
+
+strong{
+margin: 20px;
+color:red;
+display: inline;
+font-size: small;
+}
+
+h1{
+  text-shadow: 2px 2px grey;
+}
+
+
+
+
+
+
+
+
